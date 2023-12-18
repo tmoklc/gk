@@ -1,0 +1,82 @@
+<div id="header-placeholder"></div>
+
+  
+
+
+<div class="row text-center">
+
+  <div class="small-6 small-centered columns">
+      <br>
+  <h4>Contact</h4>
+    &mdash;
+    <br><br>
+  <h3>
+  <script language="JavaScript">
+
+var username = "info";
+
+var hostname = "takingliberties.org";
+
+var linktext = username + "@" + hostname ;
+
+document.write("<a href='" + "mail" + "to:" + username + "@" + hostname + "'>" + linktext + "</a>");
+
+</script>
+</h3>    
+  </div>  
+  <p>Please email the above address if you wish to contact Prof. Kalic</p> 
+  <br>
+
+</div>
+<!-- 
+<div class="row">
+  <div class="small-10 medium-8 columns medium-centered">
+<form>
+  <div class="row">
+    <div class="medium-6 columns">
+      <label>Name
+        <input type="text" placeholder="Name...">
+      </label>
+    </div>
+    <div class="medium-6 columns">
+      <label>Email
+        <input type="text" placeholder="email@domain.com">
+      </label>
+    </div>
+  </div>
+    <label>
+  Message 
+  <textarea placeholder="Please type your message here" rows="5"></textarea>
+  </label>
+  <div class="row">
+  <div class="small-6 columns expanded text-center small-centered">
+  <a class="button expanded hollow" href="#">Submit</a>
+  </div>
+  </div>
+
+  </div>
+</form> -->
+
+
+  </div>
+</div>
+<br><br><br>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // Fetch and include the header
+    fetch('header.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('header-placeholder').innerHTML = data;
+      });
+
+    // Fetch and include the footer
+    fetch('footer.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('footer-placeholder').innerHTML = data;
+      });
+  });
+</script>
+<div id="footer-placeholder"></div>

@@ -1,0 +1,62 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gunduz Kalic - Theatre Director, Acting Coach and Former Actor</title>
+    <meta name="description" content="Kalic's career as a theatre director and actor trainer has spanned two drama schools, three universities, four continents, four decades and many ensembles.">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/extra.css">
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+
+    <div class="row">
+      <div class="show-for-medium-up medium-4 medium-centered columns text-center">
+        <a href="index.html"><img src="img/gk-sketch.png" alt="" style="margin:70px 0 30px 0"></a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="small-10 medium-9 large-8 columns small-centered text-center">
+        <h5>
+          <strong>Professor Gunduz Jem Kalic</strong> is a 
+          <a href="theatre.html" id="theatre-link">theatre director</a>,
+          <a href="acting-coach.html" id="acting-coach-link">acting coach</a> 
+          and 
+          <a href="earlylife.html" id="earlylife-link">former actor</a>  
+          long fascinated with the 
+          <a href="writing.html" id="writing-link">place of the fool within theatre and society</a>, 
+          actively working on 
+          <a href="current-projects.html" id="current-projects-link">some exciting projects</a>. 
+          Watch the  
+          <a href="showreels.html" id="showreels-link">showreel</a>.        
+        </h5>
+      </div>
+    </div>
+
+    <div class="row">
+      <br>
+    </div>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var currentPage = window.location.pathname.split('/').pop();
+
+        var links = {
+          'theatre.html': document.getElementById('theatre-link'),
+          'acting-coach.html': document.getElementById('acting-coach-link'),
+          'earlylife.html': document.getElementById('earlylife-link'),
+          'writing.html': document.getElementById('writing-link'),
+          'current-projects.html': document.getElementById('current-projects-link'),
+          'showreels.html': document.getElementById('showreels-link')
+        };
+
+        if (links[currentPage]) {
+          links[currentPage].classList.add('active');
+        }
+      });
+    </script>
+  </body>
+</html>

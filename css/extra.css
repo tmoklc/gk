@@ -1,0 +1,26 @@
+.gk-nav {	
+font-size:90%
+}
+
+.footer-quote {
+	font-size: 120%;
+	font-variant: italic
+}
+
+a[href^="http://"] {
+    background: url(http://upload.wikimedia.org/wikipedia/commons/6/64/Icon_External_Link.png)     center right no-repeat;
+    padding-right: 13px;
+}
+
+.active {
+	background: #bd0000;
+	color: #fff;
+}
+
+.small-nav {
+	font-size: 80%
+}
+
+cite {
+	margin:30px 0px 30px 20px;
+}

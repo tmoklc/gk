@@ -1,0 +1,71 @@
+<div id="header-placeholder"></div>
+
+  
+
+<div class="row text-center">
+  <img src="img/gk-home2.jpg" alt="" style="margin:30px 0 30px 0">
+</div>
+
+<div class="row">
+  <div class="small-10 medium-9 columns small-centered">
+
+  <p>Gunduz Kalic's career as a theatre director, actor trainer and academic manager has spanned two drama schools, three universities, four continents, four decades and many ensembles. He has trained a number of stars and many journeymen and women of stage and screen and directed or artistically supervised the production of well over two hundred plays, including many devised and new plays. As well, seeking to follow in the tradition of Lorca, Littlewood and Dario Fo, companies he led have brought much theatre to non-theatre going audiences. </p>
+
+  </div>
+</div>
+
+
+<div class="row text-center">
+
+  <div class="small-6 small-centered columns">
+      <br>
+  <h3>Current Projects</h3>
+&mdash;    <br><br><br>
+  </div>  
+</div>
+
+<div class="row">
+  <div class="small-10 medium-10 large-8 columns small-centered">
+  <div class="medium-6 columns">
+
+    <h5>International Project</h6>
+    &mdash;
+    <p>
+    The upcoming Workshop at Tagore inspired Visva Bharati University, Santiniketan, on "intentional spontaneity" for performing artists of all kinds led by Prof Kalic.
+
+    </p>
+    <img src="img/Kalic_Workshop_India.jpg" alt="" style="margin:10px 0 50px 0">
+
+  </div>
+  <div class="medium-6 columns">
+
+    <h5>No Name</h6>
+    &mdash;
+    <p>
+    An intense sort of lament inspired by an actual Kurdish singer soldier.
+    </p>
+    <img src="img/kurdish-fighter2.jpg" alt="" style="margin:10px 0 50px 0">
+
+  </div>
+  </div>
+</div>
+<br><br><br>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // Fetch and include the header
+    fetch('header.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('header-placeholder').innerHTML = data;
+      });
+
+    // Fetch and include the footer
+    fetch('footer.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('footer-placeholder').innerHTML = data;
+      });
+  });
+</script>
+<div id="footer-placeholder"></div>

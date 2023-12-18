@@ -1,0 +1,63 @@
+<div id="header-placeholder"></div>
+
+  
+
+
+
+<div class="row text-center">
+
+  <div class="small-6 small-centered columns">
+      <br>
+  <h4>Theatre Director</h4>
+    &mdash;
+    <br><br>
+  </div>  
+</div>
+
+<div class="row">
+  <div class="small-10 medium-9 columns small-centered">
+
+<p>
+	Kalic has directed or artistically supervised the production of over two hundred plays, including many devised and new plays. His career as a theatre director, acting coach and academic manager has spanned two drama schools, three universities, four continents, four decades and many ensembles. Following in the tradition of Lorca, Littlewood and Fo, companies he has led &mdash; such as <a href="http://takingliberties.org" target="_blank">Taking Liberties Theatre Company</a> in Australia &mdash; have brought much theatre to non-theatre going audiences. An actor-trainer for four decades, Kalic has coached and taught numerous journeymen and women for stage and screen, specialising in ‘polishing rough diamonds’. As Head of Department, Principal Lecturer and Senior Lecturer at drama schools and universities, he has designed and taught a wide range of theatre classes.
+</p>
+
+  </div>
+</div>
+
+<div class="row text-center">
+  <img src="img/haveanaffair.jpg" alt="" style="margin:30px 0 30px 0">
+</div>
+
+<div class="row">
+  <div class="small-10 medium-9 columns small-centered">
+
+<p>
+	Kalic led the creation and development of a theatre-based portfolio of programmes at Bath Spa University, where he was made Professor. He also founded Full Tilt Theatre Company at the university. During his tenure, Full Tilt generated sizable audiences and many column inches, attracted positive critical reception - including a 2006 Times top five ranking for ‘must see’ productions for Heresies and a 2008 Telegraph number one ranking for outdoor productions for his adaptation of The Comedy of Errors staged at the famous Minack Theatre in Cornwall - and contributed to the University’s reputation. A North American tour of the latter show across three US states and two Canadian provinces followed.
+</p>
+<p>Previously, at Charles Darwin University (then NTU/Darwin Institute of Technology) in Australia, Kalic established and led a pioneering theatre-as-education programme in the vast Northern Territory, collaborating with and serving indigenous people among others. In the process, he developed a new methodology of educational theatre. The Australian Theatre As Education Project (TAE) &mdash; a company he founded &mdash; toured extensively throughout Northern Australia, playing to some 48,000 students and parents. Brisbane based Taking Liberties Theatre Company, which Kalic founded and served as Artistic Director, specialised in theatre as popular entertainment and as political theatre, performing at such venues as Australia’s Parliament House.
+</P>
+
+
+
+  </div>
+</div>
+<br><br><br>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // Fetch and include the header
+    fetch('header.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('header-placeholder').innerHTML = data;
+      });
+
+    // Fetch and include the footer
+    fetch('footer.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('footer-placeholder').innerHTML = data;
+      });
+  });
+</script>
+<div id="footer-placeholder"></div>
